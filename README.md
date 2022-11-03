@@ -1,3 +1,4 @@
-# BPTest
+# Test
 
-A description of this package.
+Tools helpful in writing Unit Tests, UI Tests, Test Driven
+Development and Behavior Driven Development.
