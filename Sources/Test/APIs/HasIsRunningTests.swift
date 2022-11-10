@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol HasIsRunningTests { }
+public protocol HasIsRunningTests { }
 
-extension HasIsRunningTests {
+public extension HasIsRunningTests {
     
     static var isRunnignTests: Bool {
         ProcessInfo.processInfo.environment[Key.testEnvironment] != nil

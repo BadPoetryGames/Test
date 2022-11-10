@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol HasIsCloudAvailable { }
+public protocol HasIsCloudAvailable { }
 
-extension HasIsCloudAvailable {
+public extension HasIsCloudAvailable {
     
     static var isCloudAvailable: Bool { FileManager.default.ubiquityIdentityToken != nil }
     
