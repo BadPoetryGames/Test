@@ -24,10 +24,10 @@ public protocol CanSetupPhysicsInteractions: AnyObject {
 public extension CanSetupPhysicsInteractions {
     
     func setUp(body: SKPhysicsBody, with node: SKSpriteNode, and category: UInt32) {
-        body.perform(Selector(("setRepresentedObject:")), with: node)
+        body.perform(Selector((Object.setMethod)), with: node)
         body.categoryBitMask = category
      
-        let str = body == mockBodyA ? "setBodyA:" : "setBodyB:"
+        let str = body == mockBodyA ? Object.setBody("A") : Object.setBody("B")
         mockContact.perform(Selector((str)), with: body)
     }
 }

@@ -12,10 +12,10 @@ protocol HasIsRunningTests { }
 extension HasIsRunningTests {
     
     static var isRunnignTests: Bool {
-        ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil
+        ProcessInfo.processInfo.environment[Key.testEnvironment] != nil
     }
     
     var isRunnignTests: Bool {
-        ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil
+        ProcessInfo.processInfo.environment[Key.testEnvironment] != nil
     }
 }
