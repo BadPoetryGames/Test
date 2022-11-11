@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Test
+@testable import TestForSource
 
 // TODO: !!
 public protocol CanWaitToAct { }
