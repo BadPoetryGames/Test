@@ -7,7 +7,7 @@
 
 import XCTest
 
-open class BaseTest: XCTestCase {
+open class BaseTest: XCTestCase, CanWaitToAct {
     
     // MARK: - Properties
     

@@ -21,5 +21,3 @@ public extension CanWaitToAct where Self: XCTestCase {
         wait(for: [expectation], timeout: duration + 1.0)
     }
 }
-
-public extension BaseTest: CanWaitToAct { }
