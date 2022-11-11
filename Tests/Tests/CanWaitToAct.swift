@@ -22,4 +22,4 @@ public extension CanWaitToAct where Self: XCTestCase {
     }
 }
 
-extension XCTestCase: CanWaitToAct { }
+extension BaseTest: CanWaitToAct { }

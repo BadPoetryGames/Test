@@ -12,7 +12,7 @@ let package = Package(
             targets: ["Test"]),
         .library(
             name: "Tests",
-            targets: ["Tests"])
+            targets: ["Tests"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
