@@ -7,7 +7,7 @@
 
 import XCTest
 
-public class BaseTest: XCTestCase {
+open class BaseTest: XCTestCase {
     
     // MARK: - Properties
     
